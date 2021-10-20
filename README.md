@@ -1,16 +1,19 @@
 # limitless
 
-A new Flutter project.
+Simple add to cart project with flutter and firebase.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I used firebase as a server, I added products manually to firestore to focus on main feature in the task,
+which is add to cart request.
 
-A few resources to get you started if this is your first Flutter project:
+##Procedure to build the app
+Just clone the project, run the pub get, and it will work.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#Main Architecture
+I used simply futurebuilder due to the simplicity of the task, but if it is a apart from large project,
+I will use provider or bloc to track and handle states successfully.
+you can see implementing bloc in my TimerApp with bloc https://github.com/albraa-abdalla/Timer-App-with-Bloc.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+As I said, I used something manullay, like using userId cause I didn't Used login and Firebase Authentication.
+the field userId in productsInCart collection is for fetching cart products for specific user, but here I have only one user.
