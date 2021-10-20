@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061290239286",
+    "project_id": "limitless-aa949",
+    "storage_bucket": "limitless-aa949.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061290239286:android:f9193f6af9cbdc376abf97",
+        "android_client_info": {
+          "package_name": "com.example.limitless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061290239286-ksc7mh5pl5ur9lvict2enjt2c47il9c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFTRjmsiKPdf1mDUCcEEfMg218kZ49zW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061290239286-ksc7mh5pl5ur9lvict2enjt2c47il9c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
