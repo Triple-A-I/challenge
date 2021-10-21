@@ -7,10 +7,10 @@ Simple add to cart project with flutter and firebase.
 I used firebase as a server, I added products manually to firestore to focus on main feature in the task,
 which is add to cart request.
 
-##Procedure to build the app
+## Procedure to build the app
 Just clone the project, run the pub get, and it will work.
 
-#Main Architecture
+# Main Architecture
 I used simply futurebuilder due to the simplicity of the task, but if it is a apart from large project,
 I will use provider or bloc to track and handle states successfully.
 you can see implementing bloc in my TimerApp with bloc https://github.com/albraa-abdalla/Timer-App-with-Bloc.
